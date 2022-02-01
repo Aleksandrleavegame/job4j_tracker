@@ -23,7 +23,7 @@ public class Cat {
         gav.giveNick("Gav");
         gav.show();
         Cat black = new Cat();
-        black.giveNick("Chernysh");
+        black.giveNick("Chernyish");
         black.eat("fish");
         black.show();
     }
