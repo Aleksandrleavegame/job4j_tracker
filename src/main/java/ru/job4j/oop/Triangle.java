@@ -29,8 +29,7 @@ public class Triangle {
         double bc = second.distance(third);
         if (this.exist(ab, ac, bc)) {
             double p = semiPerimeter(ab, ac, bc);
-                    /* написать формулу для расчета площади треугольника. */
-                    rsl = sqrt(p * (p - ab) * (p - bc) * (p - ac));
+            rsl = sqrt(p * (p - ab) * (p - bc) * (p - ac));
         }
         return rsl;
     }
