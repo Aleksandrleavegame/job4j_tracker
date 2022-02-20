@@ -4,8 +4,9 @@ public class JSONReport extends TextReport {
 
     public String generate(String name, String body) {
         return "{" + System.lineSeparator()
-                + "\t\"name\" : \"" + name + "\","
+                + "\t\"nam de\" : \"" + name + "\","
                 + System.lineSeparator() + "\t\"body\" : \""
-                + body + "\"" + System.lineSeparator() + "}";
+                + body + "\"" + System.lineSeparator()
+                + "}";
     }
 }
