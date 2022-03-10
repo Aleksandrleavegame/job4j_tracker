@@ -10,7 +10,7 @@ public class College {
         student.setGroup("Intern");
         student.setAdmission(new Date());
 
-        System.out.println(student.getName() + " started learning in the " +
-                student.getGroup() + " group from " + student.getAdmission());
+        System.out.println(student.getName() + " started learning in the "
+                + student.getGroup() + " group from " + student.getAdmission());
     }
 }
