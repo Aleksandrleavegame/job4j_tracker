@@ -49,7 +49,7 @@ public class StartUI {
                     System.out.println("Заявка удалена успешно.");
                 } else {
                     System.out.println("Ошибка удаления заявки.");
-                }0
+                }
             }
         }
     }
